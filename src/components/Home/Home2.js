@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import myImg from '../../Assets/avatar.svg'
+import myImg from '../../Assets/face.png'
 import Tilt from 'react-parallax-tilt'
 import {AiFillGithub} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
@@ -16,7 +16,7 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               Je suis tombé amoureux de la programmation et j'ai appris au moins
-              quelque chose, je pense… 🤷‍♂️
+              quelque chose.
               <br />
               <br />Je maîtrise les classiques comme
               <i>

@@ -1,47 +1,33 @@
 import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
-import {AiFillGithub} from 'react-icons/ai'
-import {FaLinkedinIn} from 'react-icons/fa'
 
 function Footer() {
-  let date = new Date()
-  let year = date.getFullYear()
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Conçu et développé par Mohammed Amine Lahlou</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Droits d'auteur © {year} MAL</h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/aminelahlou007-debug"
-                style={{color: '#6b2fb9'}}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/moahmmed-amine-lahlou-74491b3a1/"
-                style={{color: '#6b2fb9'}}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+    <div className="footer-categories" style={{
+      position: 'fixed',
+      bottom: '0',
+      width: '100%',
+      backgroundColor: '#1a1a1a',
+      color: '#999',
+      textAlign: 'center',
+      padding: '12px 20px',
+      fontSize: '0.9rem',
+      fontWeight: '500',
+      letterSpacing: '1px',
+      zIndex: '100',
+      borderTop: '1px solid #333'
+    }}>
+      <span style={{position: 'absolute', left: '20px', top: '50%', transform: 'translateY(-50%)', fontSize: '24px', color: '#666'}}>✦</span>
+      <span style={{marginRight: '16px'}}>WEB DESIGN</span>
+      <span style={{marginRight: '16px'}}>✦</span>
+      <span style={{marginRight: '16px'}}>APP DESIGN</span>
+      <span style={{marginRight: '16px'}}>✦</span>
+      <span style={{marginRight: '16px'}}>DEVELOPMENT</span>
+      <span style={{marginRight: '16px'}}>✦</span>
+      <span style={{marginRight: '16px'}}>WEB FLOW</span>
+      <span style={{marginRight: '16px'}}>✦</span>
+      <span style={{marginRight: '16px'}}>BRANDING</span>
+      <span style={{position: 'absolute', right: '20px', top: '50%', transform: 'translateY(-50%)', fontSize: '24px', color: '#666'}}>✦</span>
+    </div>
   )
 }
 
