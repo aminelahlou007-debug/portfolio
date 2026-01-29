@@ -1,34 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.a6902d29.chunk.css",
-    "main.js": "/static/js/main.8e7aa04d.chunk.js",
-    "main.js.map": "/static/js/main.8e7aa04d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f816259f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f816259f.js.map",
+    "main.css": "/static/css/main.6e4de903.chunk.css",
+    "main.js": "/static/js/main.f1706f70.chunk.js",
+    "main.js.map": "/static/js/main.f1706f70.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0ba7bdae.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0ba7bdae.js.map",
     "static/css/2.44d809a4.chunk.css": "/static/css/2.44d809a4.chunk.css",
-    "static/js/2.4c23e6f9.chunk.js": "/static/js/2.4c23e6f9.chunk.js",
-    "static/js/2.4c23e6f9.chunk.js.map": "/static/js/2.4c23e6f9.chunk.js.map",
-    "static/js/3.169dc90b.chunk.js": "/static/js/3.169dc90b.chunk.js",
-    "static/js/3.169dc90b.chunk.js.map": "/static/js/3.169dc90b.chunk.js.map",
+    "static/js/2.b213e13d.chunk.js": "/static/js/2.b213e13d.chunk.js",
+    "static/js/2.b213e13d.chunk.js.map": "/static/js/2.b213e13d.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/2.44d809a4.chunk.css.map": "/static/css/2.44d809a4.chunk.css.map",
-    "static/css/main.a6902d29.chunk.css.map": "/static/css/main.a6902d29.chunk.css.map",
-    "static/js/2.4c23e6f9.chunk.js.LICENSE.txt": "/static/js/2.4c23e6f9.chunk.js.LICENSE.txt",
-    "static/media/Amine_CV.c03722f7.pdf": "/static/media/Amine_CV.c03722f7.pdf",
+    "static/css/main.6e4de903.chunk.css.map": "/static/css/main.6e4de903.chunk.css.map",
+    "static/js/2.b213e13d.chunk.js.LICENSE.txt": "/static/js/2.b213e13d.chunk.js.LICENSE.txt",
     "static/media/LandingPage.775a35d9.png": "/static/media/LandingPage.775a35d9.png",
-    "static/media/about.aee0f771.png": "/static/media/about.aee0f771.png",
     "static/media/electroshop.c0a00753.png": "/static/media/electroshop.c0a00753.png",
-    "static/media/style.css": "/static/media/pre.d4812f51.svg",
     "static/media/wave.faaf98cb.png": "/static/media/wave.faaf98cb.png",
     "static/media/wedding.2e859b05.png": "/static/media/wedding.2e859b05.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f816259f.js",
+    "static/js/runtime-main.0ba7bdae.js",
     "static/css/2.44d809a4.chunk.css",
-    "static/js/2.4c23e6f9.chunk.js",
-    "static/css/main.a6902d29.chunk.css",
-    "static/js/main.8e7aa04d.chunk.js"
+    "static/js/2.b213e13d.chunk.js",
+    "static/css/main.6e4de903.chunk.css",
+    "static/js/main.f1706f70.chunk.js"
   ]
 }

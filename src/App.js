@@ -8,7 +8,6 @@ import Resume from "./components/Resume/Resume";
 import Contact from "./components/Contact/Contact";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import "./style.css";
-import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ReactGA from "react-ga";
 

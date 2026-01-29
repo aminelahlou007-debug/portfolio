@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
 import ReactGA from "react-ga";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 
@@ -12,153 +11,70 @@ function About() {
   }, []);
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px", marginBottom: "60px" }}>
-          <Col md={12} style={{paddingTop: "30px", paddingBottom: "30px", textAlign: "center"}} className="scroll-fade-up">
-            <div style={{marginBottom: "20px"}}>
-              <span style={{fontSize: "24px", color: "#666"}}>✦</span>
+        <Row className="about-header-row">
+          <Col md={12} className="about-header-col">
+            <div className="about-header-divider">
+              <span className="about-header-symbol">✦</span>
             </div>
-            <h1 style={{ fontSize: "3em", paddingBottom: "20px", fontWeight: "700", letterSpacing: "2px" }}>
+            <h1 className="about-header-title">
               EXPERIENCE
             </h1>
-            <p style={{color: '#666', maxWidth: '700px', margin: '0 auto', fontSize: '0.95rem', lineHeight: '1.6'}}>
+            <p className="about-header-description">
               There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form.
             </p>
           </Col>
         </Row>
 
         {/* Experience List */}
-        <Row style={{ marginBottom: "60px" }}>
+        <Row className="about-experience-row">
           <Col md={12}>
-            <div style={{maxWidth: '1100px', margin: '0 auto'}}>
+            <div className="about-experience-container">
               {/* First Experience - Dark */}
-              <div className="scroll-fade-up" style={{
-                display: 'grid',
-                gridTemplateColumns: '80px 1fr auto',
-                alignItems: 'center',
-                padding: '30px 40px',
-                backgroundColor: '#1a1a1a',
-                color: '#fff',
-                marginBottom: '20px',
-                borderRadius: '0',
-                gap: '30px'
-              }}>
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  backgroundColor: '#444',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '24px',
-                  fontWeight: '700'
-                }}>1</div>
-                <div>
-                  <h3 style={{margin: '0 0 4px 0', fontSize: '1.2em', fontWeight: '700'}}>Micro-interactions Awwwards Team</h3>
-                  <p style={{margin: 0, fontSize: '0.9em', color: '#aaa'}}>Focus Lab Agency -United State</p>
+              <div className="about-experience-card about-experience-dark scroll-fade-up">
+                <div className="about-experience-number">1</div>
+                <div className="about-experience-content">
+                  <h3 className="about-experience-title">Micro-interactions Awwwards Team</h3>
+                  <p className="about-experience-company">Focus Lab Agency -United State</p>
                 </div>
-                <div style={{textAlign: 'right', paddingLeft: '30px', borderLeft: '1px solid #555'}}>
-                  <p style={{margin: 0, fontSize: '0.85em', fontWeight: '600'}}>JOB DURATION - 2 YEARS</p>
+                <div className="about-experience-duration">
+                  <p className="about-duration-label">JOB DURATION - 2 YEARS</p>
                 </div>
               </div>
 
               {/* Second Experience */}
-              <div className="scroll-fade-up" style={{
-                display: 'grid',
-                gridTemplateColumns: '80px 1fr auto',
-                alignItems: 'center',
-                padding: '30px 40px',
-                backgroundColor: '#fff',
-                color: '#222',
-                marginBottom: '20px',
-                border: '1px solid #ddd',
-                borderRadius: '0',
-                gap: '30px'
-              }}>
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  backgroundColor: '#000',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '24px',
-                  fontWeight: '700',
-                  color: '#fff'
-                }}>2</div>
-                <div>
-                  <h3 style={{margin: '0 0 4px 0', fontSize: '1.2em', fontWeight: '700'}}>Senior UI Designer</h3>
-                  <p style={{margin: 0, fontSize: '0.9em', color: '#666'}}>User-Hub - Bangladesh</p>
+              <div className="about-experience-card about-experience-light scroll-fade-up">
+                <div className="about-experience-number">2</div>
+                <div className="about-experience-content">
+                  <h3 className="about-experience-title">Senior UI Designer</h3>
+                  <p className="about-experience-company">User-Hub - Bangladesh</p>
                 </div>
-                <div style={{textAlign: 'right', paddingLeft: '30px', borderLeft: '1px solid #ddd'}}>
-                  <p style={{margin: 0, fontSize: '0.85em', fontWeight: '600'}}>JOB DURATION - 1 YEAR</p>
+                <div className="about-experience-duration">
+                  <p className="about-duration-label">JOB DURATION - 1 YEAR</p>
                 </div>
               </div>
 
               {/* Third Experience */}
-              <div className="scroll-fade-up" style={{
-                display: 'grid',
-                gridTemplateColumns: '80px 1fr auto',
-                alignItems: 'center',
-                padding: '30px 40px',
-                backgroundColor: '#fff',
-                color: '#222',
-                marginBottom: '20px',
-                border: '1px solid #ddd',
-                borderRadius: '0',
-                gap: '30px'
-              }}>
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  backgroundColor: '#000',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '24px',
-                  fontWeight: '700',
-                  color: '#fff'
-                }}>3</div>
-                <div>
-                  <h3 style={{margin: '0 0 4px 0', fontSize: '1.2em', fontWeight: '700'}}>Product Design</h3>
-                  <p style={{margin: 0, fontSize: '0.9em', color: '#666'}}>Zomato Digial Agency- India</p>
+              <div className="about-experience-card about-experience-light scroll-fade-up">
+                <div className="about-experience-number">3</div>
+                <div className="about-experience-content">
+                  <h3 className="about-experience-title">Product Design</h3>
+                  <p className="about-experience-company">Zomato Digial Agency- India</p>
                 </div>
-                <div style={{textAlign: 'right', paddingLeft: '30px', borderLeft: '1px solid #ddd'}}>
-                  <p style={{margin: 0, fontSize: '0.85em', fontWeight: '600'}}>JOB DURATION - 2 YEARS</p>
+                <div className="about-experience-duration">
+                  <p className="about-duration-label">JOB DURATION - 2 YEARS</p>
                 </div>
               </div>
 
               {/* Fourth Experience */}
-              <div className="scroll-fade-up" style={{
-                display: 'grid',
-                gridTemplateColumns: '80px 1fr auto',
-                alignItems: 'center',
-                padding: '30px 40px',
-                backgroundColor: '#f5f5f5',
-                color: '#222',
-                marginBottom: '20px',
-                border: '1px solid #ddd',
-                borderRadius: '0',
-                gap: '30px'
-              }}>
-                <div style={{
-                  width: '60px',
-                  height: '60px',
-                  backgroundColor: '#000',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  fontSize: '24px',
-                  fontWeight: '700',
-                  color: '#fff'
-                }}>4</div>
-                <div>
-                  <h3 style={{margin: '0 0 4px 0', fontSize: '1.2em', fontWeight: '700'}}>Webflow Team Manager</h3>
-                  <p style={{margin: 0, fontSize: '0.9em', color: '#666'}}>Google Team - UK</p>
+              <div className="about-experience-card about-experience-light scroll-fade-up">
+                <div className="about-experience-number">4</div>
+                <div className="about-experience-content">
+                  <h3 className="about-experience-title">Webflow Team Manager</h3>
+                  <p className="about-experience-company">Google Team - UK</p>
                 </div>
-                <div style={{textAlign: 'right', paddingLeft: '30px', borderLeft: '1px solid #ddd'}}>
-                  <p style={{margin: 0, fontSize: '0.85em', fontWeight: '600'}}>JOB DURATION - 2 YEARS</p>
+                <div className="about-experience-duration">
+                  <p className="about-duration-label">JOB DURATION - 2 YEARS</p>
                 </div>
               </div>
             </div>
@@ -170,4 +86,3 @@ function About() {
 }
 
 export default About;
-
