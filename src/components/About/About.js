@@ -26,11 +26,9 @@ function About() {
           </Col>
         </Row>
 
-        {/* Experience List */}
         <Row className="about-experience-row">
           <Col md={12}>
             <div className="about-experience-container">
-              {/* First Experience - Dark */}
               <div className="about-experience-card about-experience-dark scroll-fade-up">
                 <div className="about-experience-number">1</div>
                 <div className="about-experience-content">
@@ -41,8 +39,6 @@ function About() {
                   <p className="about-duration-label">JOB DURATION - 2 YEARS</p>
                 </div>
               </div>
-
-              {/* Second Experience */}
               <div className="about-experience-card about-experience-light scroll-fade-up">
                 <div className="about-experience-number">2</div>
                 <div className="about-experience-content">
@@ -53,8 +49,6 @@ function About() {
                   <p className="about-duration-label">JOB DURATION - 1 YEAR</p>
                 </div>
               </div>
-
-              {/* Third Experience */}
               <div className="about-experience-card about-experience-light scroll-fade-up">
                 <div className="about-experience-number">3</div>
                 <div className="about-experience-content">
@@ -67,8 +61,6 @@ function About() {
               </div>
 
               {/* Fourth Experience */}
-              <div className="about-experience-card about-experience-light scroll-fade-up">
-                <div className="about-experience-number">4</div>
                 <div className="about-experience-content">
                   <h3 className="about-experience-title">Webflow Team Manager</h3>
                   <p className="about-experience-company">Google Team - UK</p>

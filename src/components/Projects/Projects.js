@@ -60,7 +60,6 @@ function Projects() {
   return (
     <Container fluid className="project-section case-study-section" id="projects">
       <Container className="projects-container">
-        {/* Header */}
         <div className="projects-header scroll-fade-up">
           <div className="projects-header-pattern"></div>
           <h1 className="projects-title">CASE STUDY</h1>
@@ -69,7 +68,6 @@ function Projects() {
           </p>
         </div>
 
-        {/* Projects Display */}
         <div className={`projects-display ${expandedProjects ? 'expanded' : ''}`}>
           {projects.map((project, index) => (
             <div
@@ -79,7 +77,6 @@ function Projects() {
                 display: expandedProjects || index === 0 ? 'flex' : 'none',
               }}
             >
-              {/* Image/Logo Area - Left */}
               <div className="project-image-area">
                 <img
                   src={project.image}
@@ -87,8 +84,6 @@ function Projects() {
                   className="project-image"
                 />
               </div>
-
-              {/* Content Area - Right */}
               <div className="project-content">
                 <span className="project-category">
                   {project.category}
@@ -112,7 +107,6 @@ function Projects() {
           ))}
         </div>
 
-        {/* Read More Button */}
         <div className="projects-button-container">
           <button
             onClick={() => setExpandedProjects(!expandedProjects)}

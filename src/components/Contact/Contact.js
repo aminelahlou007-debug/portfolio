@@ -32,7 +32,6 @@ function Contact() {
   return (
     <Container fluid className="contact-section" id="contact">
       <Container className="contact-container">
-        {/* Header */}
         <div className="contact-header scroll-fade-up">
           <div className="contact-pattern"></div>
           
@@ -55,9 +54,7 @@ function Contact() {
           </p>
         </div>
 
-        {/* Form */}
         <form className="contact-form scroll-fade-up">
-          {/* Name and Email Row */}
           <div className="contact-form-row">
             <div className="contact-form-group">
               <label>Name:*</label>
@@ -77,8 +74,6 @@ function Contact() {
             </div>
           </div>
 
-          {/* Company Name */}
-          <div className="contact-form-group">
             <label>Company name</label>
             <input 
               type="text" 
@@ -88,8 +83,6 @@ function Contact() {
           </div>
 
           {/* Services */}
-          <div className="contact-services">
-            <label>What's in your mind?*</label>
             <div className="contact-services-list">
               {services.map((service) => (
                 <button
@@ -105,8 +98,6 @@ function Contact() {
           </div>
 
           {/* Submit Button */}
-          <div className="contact-submit">
-            <div></div>
             <div className="contact-submit-wrapper">
               <svg className="contact-arrow-svg" width="40" height="40" viewBox="0 0 40 40">
                 <path d="M5,20 L15,10 M15,10 L25,20 M25,20 L35,10" stroke="#000" strokeWidth="3" fill="none"/>

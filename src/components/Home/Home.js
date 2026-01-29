@@ -41,25 +41,20 @@ function Home() {
           <Row>
             <Col md={12} className="home-header">
               <div className="hero-brand">c'est moi</div>
-              
               <h1 className="hero-greeting">
                 <img src={waveImg} alt="wave" className="wave-img" />
               </h1>
-              
               <h1 className="hero-main-heading">
                 Bonjour! <span className="hero-name-bold">Je suis Amine Lahlou</span>
               </h1>
-              
               <div className="hero-title-separator">
                 <span className="hero-line"></span>
                 <span className="hero-title">Développeur Full Stack</span>
                 <span className="hero-diamond">✦</span>
               </div>
-              
               <p className="hero-description">
                 Bonjour! Je suis Amine. Je suis un <strong>développeur full stack, ingénieur logiciel, développeur web</strong>, passionné par la création d'applications web modernes et de solutions cloud
               </p>
-              
               <ul className="hero-checklist">
                 <li>
                   <span className="checkmark">✓</span>
@@ -75,7 +70,6 @@ function Home() {
                 </li>
               </ul>
               
-              <div className="hero-buttons">
                 <a href="#contact" className="hero-btn-primary">Parlons</a>
                 <a href="#resume" className="hero-btn-secondary">
                   Télécharger le CV
@@ -99,8 +93,6 @@ function Home() {
                   <a className="services-btn" href="#contact">TOUS LES SERVICES</a>
                 </div>
 
-                {/* Scroll Down Indicator */}
-                <div className="scroll-indicator">
                   <div className="scroll-line"></div>
                   <div className="scroll-text">SCROLL DOWN</div>
                   <div className="scroll-arrow">↓</div>
